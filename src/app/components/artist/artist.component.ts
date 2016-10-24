@@ -6,7 +6,8 @@ import {SpotifyService} from '../../services/spotify.service';
 
 @Component({
     selector: 'artist',
-    templateUrl: './app/components/artist/artist.component.html'
+    templateUrl: './app/components/artist/artist.component.html',
+    providers: [SpotifyService]
 })
 export class ArtistComponent implements OnInit {
     id:string;
