@@ -4,7 +4,6 @@ import {routing, RootComponent} from './routes';
 import {FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
 
-import {MainComponent} from './main';
 import {SearchComponent} from './components/search/search.component';
 import {NavbarComponent} from './components/navbar/navbar.component';
 import {AboutComponent} from './components/about/about.component';
@@ -21,7 +20,6 @@ import {AlbumComponent} from './components/album/album.component';
   ],
   declarations: [
     RootComponent,
-    MainComponent,
     SearchComponent,
     NavbarComponent,
     AboutComponent,
