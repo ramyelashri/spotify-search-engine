@@ -8,8 +8,6 @@ import {AboutComponent} from './components/about/about.component';
 import {ArtistComponent} from './components/artist/artist.component';
 import {AlbumComponent} from './components/album/album.component';
 
-export class RootComponent {}
-
 export const routes: Routes = [
   {
     path: '',
