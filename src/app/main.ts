@@ -1,7 +1,9 @@
 import {Component} from '@angular/core';
+import {SpotifyService} from './services/spotify.service';
 
 @Component({
-  selector: 'fountain-app',
-  template: require('./main.html')
+  selector: 'my-app',
+  templateUrl: './app/main.html',
+  providers: [SpotifyService]
 })
 export class MainComponent {}
