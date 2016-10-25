@@ -4,7 +4,7 @@ import {Artist} from '../../artist';
 
 @Component({
     selector: 'search',
-    templateUrl: './app/components/search/search.component.html',
+    template: require('./search.component.html'),
     providers: [SpotifyService]
 })
 export class SearchComponent {

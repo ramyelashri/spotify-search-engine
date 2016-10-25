@@ -2,6 +2,6 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'navbar',
-    templateUrl: './app/components/navbar/navbar.component.html'
+    template: require('./navbar.component.html')
 })
 export class NavbarComponent { }
